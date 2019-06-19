@@ -1,0 +1,15 @@
+﻿<Window x:Class="_13._06._4v.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_13._06._4v"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="http://risovach.ru/thumb/upload/200s400/2013/02/generator/vyberi-tabletku_10576485_orig_.jpeg?7k5vj" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button Name="Right" Content="Скачивание файла" HorizontalAlignment="Left" Margin="110,178,0,0" VerticalAlignment="Top" Width="148" Height="53" FontSize="16" Click="Right_Click" Background="#FFF35252"/>
+        <Button Name="Lift" Content="Выполнение вычислений" HorizontalAlignment="Left" Margin="533,200,0,0" VerticalAlignment="Top" Width="148" Height="53"  FontSize="12" Click="Lift_Click" Background="#FF51D4FB"/>
+    </Grid>
+</Window>
